@@ -1,0 +1,19 @@
+.divLeftOfPanelBody{
+    margin: 1%;
+    width: 80%;
+    display: inline-block;
+    display: flex;
+    background-color: rgb(226, 57, 57);
+}
+.divWriteOfPanelBody{
+    margin: 1%;
+    width: 18%;
+    display: inline-block;
+    background-color: rgb(167, 202, 11);
+}
+app-hotels-panel{
+    margin: 1%;
+    width: 48%;
+    display: inline-block;
+    background-color: rgb(202, 11, 145);
+}

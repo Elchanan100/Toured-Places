@@ -1,0 +1,9 @@
+
+app-everything{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 99vw;
+    height: 49vw;
+    background-color: chartreuse;
+}
