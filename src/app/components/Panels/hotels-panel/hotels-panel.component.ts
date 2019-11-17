@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HoletServiceService } from '../../../services/holet-service.service';
+
+
 
 @Component({
   selector: 'app-hotels-panel',
@@ -6,8 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hotels-panel.component.css']
 })
 export class HotelsPanelComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor(public HoletService:HoletServiceService) {
+    }
 
   ngOnInit() {
   }
